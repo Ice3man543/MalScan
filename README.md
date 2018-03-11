@@ -25,11 +25,12 @@ python malscan.py
 Simply run with the name of file you want to check. 
 
 ![tool_in_action](https://raw.githubusercontent.com/Ice3man543/MalScan/master/usage_example.png)
+
 ### Development
 
 Want to contribute? Great! 
 
-You can add more services or recommend any changes to the existing ones. Any kind of help is appreciated.
+You can add more featrues or recommend any changes to the existing ones. Any kind of help is appreciated.
 
 License
 ----
