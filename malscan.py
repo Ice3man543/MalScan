@@ -61,7 +61,6 @@ try:
 except ImportError:
     print 'yara-python is not installed, see http://code.google.com/p/yara-project/'
 
-has_res = 0  # For Suspecious Resources
 high_entropy = 0  # checking for high entropy sections
 has_ep_out = 0  # cheks Entry point for bad entries
 has_antivm = 0  # antivm checks
@@ -171,6 +170,7 @@ def check_entry_point(pe):
 
 
 def main():
+    has_res = 0 # For Suspecious Resources
     print "\n[*] MalScan : A PE File Heuristics Scanner"
     print "[*] Written By : @Ice3man (Nizamul Rana)"
     print "[*] Github : https://github.com/ice3man543"
